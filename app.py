@@ -1,8 +1,5 @@
-from math import *
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2)
 
-my_num = -5.8
-print(abs(my_num))  # builtins
-print(round(abs(pow(my_num, 5))))   # builtins
-print(floor(3.7))   # math
-print(ceil(3.7))   # math
-print(sqrt(36))   # math
+print(result)
