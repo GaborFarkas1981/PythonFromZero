@@ -7,5 +7,5 @@ print(y)
 
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
-plt.plot(x, y)
+plt.scatter(x,y)
 plt.show()
