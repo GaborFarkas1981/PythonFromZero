@@ -1,5 +1,7 @@
-numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-squeredList = [i * i for i in numberList]
+mydict = {"name" : "Max", "age": 32, "City": "New York"}
+print(mydict)
 
-print(numberList)
-print(squeredList)
+try:
+    print(mydict["name"])
+except:
+    print("Error")
