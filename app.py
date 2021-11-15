@@ -1,11 +1,5 @@
-fruitList = ["banana", "cherry", "apple"]
-print(fruitList)
+numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+squeredList = [i * i for i in numberList]
 
-for x in fruitList:
-    print(x)
-
-fruit = "drt"
-if fruit in fruitList:
-    print("Yes, " + fruit + " is in the list of fruits.")
-else:
-    print("No, " + fruit + " is not in the list of fruits.")
+print(numberList)
+print(squeredList)
